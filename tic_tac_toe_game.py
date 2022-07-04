@@ -24,7 +24,7 @@ p=[
     (1,5,9),
     (3,5,7) 
 ]
-# A blank list which will help to check whether the is drawn or not
+# A blank list which will help to check whether the game is drawn or not
 res=[]
 # Adding keys and values to the dictionary
 k=1
