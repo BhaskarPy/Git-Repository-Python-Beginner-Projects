@@ -64,6 +64,7 @@ def playerOne():
     # ASCII of "X" is 88 and "O" is 79
     if game[p1]==88 or game[p1]==79:
         print("Cell already occupied. Select another cell.")
+        p1=0
         playerOne()
     if p1 in game:
         game[p1]=88
@@ -77,6 +78,7 @@ def playerTwo():
     # ASCII of "X" is 88 and "O" is 79
     if game[p2]==88 or game[p2]==79:
         print("Cell already occupied. Select another cell.")
+        p2=0
         playerTwo()
     if p2 in game:
         game[p2]=79
